@@ -1,0 +1,54 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .App-header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .App-footer {
+    flex-shrink: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .page-link {
+    color: #6c757d;
+  }
+  .page-link:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  .page-item.active .page-link {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d ;
+  }
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show > .nav-link {
+    font-weight: bolder;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .hideMobile{
+      display: none;
+    }
+  }
